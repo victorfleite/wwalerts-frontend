@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "alertas";
+  src:url("fonts/alertas.eot");
+  src:url("fonts/alertas.eot?#iefix") format("embedded-opentype"),
+    url("fonts/alertas.woff") format("woff"),
+    url("fonts/alertas.ttf") format("truetype"),
+    url("fonts/alertas.svg#alertas") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "alertas" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "alertas" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alert-acumulado-de-chuva:before {
+  content: "a";
+}
+.icon-alert-baixa-umidade:before {
+  content: "b";
+}
+.icon-alert-chuvas-intensas:before {
+  content: "c";
+}
+.icon-alert-declinio-de-temperatura:before {
+  content: "d";
+}
+.icon-alert-estiagem:before {
+  content: "e";
+}
+.icon-alert-friagem:before {
+  content: "f";
+}
+.icon-alert-geada:before {
+  content: "g";
+}
+.icon-alert-granizo:before {
+  content: "h";
+}
+.icon-alert-incendios:before {
+  content: "i";
+}
+.icon-alert-neve:before {
+  content: "j";
+}
+.icon-alert-onda-de-calor:before {
+  content: "k";
+}
+.icon-alert-onda-de-frio:before {
+  content: "l";
+}
+.icon-alert-ressaca:before {
+  content: "m";
+}
+.icon-alert-seca:before {
+  content: "n";
+}
+.icon-alert-tempestade-de-raio:before {
+  content: "o";
+}
+.icon-alert-tornado:before {
+  content: "p";
+}
+.icon-alert-vendaval:before {
+  content: "q";
+}
+.icon-alert-ventos-costeiros:before {
+  content: "r";
+}
+.icon-alert-ventos-costeiros-copy:before {
+  content: "s";
+}
+.icon-back:before {
+  content: "t";
+}
+.icon-close:before {
+  content: "u";
+}
+.icon-foward:before {
+  content: "v";
+}
+.icon-fullscreen:before {
+  content: "w";
+}
+.icon-previsao-chuva:before {
+  content: "x";
+}
+.icon-previsao-chuvas-isoladas:before {
+  content: "y";
+}
+.icon-previsao-chuviscos:before {
+  content: "z";
+}
+.icon-previsao-tempestade:before {
+  content: "A";
+}
+.icon-previsao-sol:before {
+  content: "B";
+}
+.icon-previsao-predominio-sol:before {
+  content: "C";
+}
+.icon-previsao-possibilidades-de-pancadas-de-chuva:before {
+  content: "D";
+}
+.icon-previsao-parcialmente-nublado:before {
+  content: "E";
+}
+.icon-previsao-pancadas-de-chuva:before {
+  content: "F";
+}
+.icon-previsao-nublado-com-pancadas-de-chuva:before {
+  content: "G";
+}
+.icon-previsao-nublado:before {
+  content: "H";
+}
+.icon-previsao-nevoeiro:before {
+  content: "I";
+}
+.icon-previsao-geada:before {
+  content: "J";
+}
+.icon-previsao-encoberto-com-chuva-isolada:before {
+  content: "K";
+}
+.icon-previsao-encoberto:before {
+  content: "L";
+}
+.icon-previsao-chuvoso:before {
+  content: "M";
+}
+.icon-previsao-tempo-instavel:before {
+  content: "N";
+}
+.icon-triangle-down:before {
+  content: "O";
+}
+.icon-triangle-up:before {
+  content: "P";
+}
+.icon-x:before {
+  content: "Q";
+}

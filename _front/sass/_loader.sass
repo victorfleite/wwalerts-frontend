@@ -1,0 +1,33 @@
+.pace
+	-webkit-pointer-events: none
+	pointer-events: none
+	-webkit-user-select: none
+	-moz-user-select: none
+	user-select: none
+	+transition
+
+	&.pace-inactive .pace-progress
+		display: none
+	.pace-progress
+		position: fixed
+		z-index: 2000
+		top: 50%
+		left: 0
+		right: 0
+		margin-top: 100px
+		text-align: center
+		width: 100%
+		display: block
+		color: $brancoCinza
+		+fontTitle
+		&:after
+			display: block
+			position: fixed
+			right: 0
+			left: 0
+			text-align: center
+			content: attr(data-progress-text)
+			font-family: +font
+			font-weight: 100
+			font-size: 80px
+			line-height: 100%

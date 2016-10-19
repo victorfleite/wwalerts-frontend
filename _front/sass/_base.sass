@@ -1,0 +1,180 @@
+// ------------------------------------------------------------------
+// colors
+// ------------------------------------------------------------------
+
+$branco: #fff
+$preto: #2c2c2c
+$black: #000
+
+$azulClaro: #266699
+$azul: #0f436c
+$azulEscuro: #053051
+$amarelo: #f2c600
+$roxo: #a626ff
+$verdeLimao: #8cff26
+$magenta: #ff2687
+$azulLight: #26d9ff
+$laranja: #e87e04
+$vermelho: #c62914
+$vermelhoEscuro: #830000
+$verde: #1ecd6d
+$verdeEscuro: #2a8511
+$marrom: #402d21
+
+$brancoCinza: #f7f7f7
+$cinzaClaro: #b1b3b6
+$cinza: #9c9c9c
+$cinzaEscuro: #414042
+
+
+$corTexto: $cinzaEscuro
+$corPrincipal: $azul
+$corPrincipalInverso: $brancoCinza
+
+
+// ------------------------------------------------------------------
+// Scroll css3
+// ------------------------------------------------------------------ 
+
+$corScroll: $corPrincipal
+$corFundoScroll: $corPrincipalInverso
+
+
+
+@import "compass"
+/**
+ * Mixin scrollbar
+ */
+@mixin scrollbar($size, $primary, $secondary: lighten($primary, 25%))
+	::-webkit-scrollbar
+		width:  $size
+		height: $size
+
+	::-webkit-scrollbar-thumb
+		background: $primary
+
+	::-webkit-scrollbar-track
+		background: $secondary
+  
+	// For Internet Explorer
+	body
+		scrollbar-face-color: $primary
+		scrollbar-track-color: $secondary
+
+/**
+ * Call the damn thing
+ */
+html
+	//+scrollbar(10px, $corPrincipal)
+	+scrollbar(10px, rgba($black, 0.1))
+
+
+// ------------------------------------------------------------------
+// Tipography
+// ------------------------------------------------------------------
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700)
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic)
+@import "../fonts/alertas/styles.css"
+
+@mixin fontIcon
+	font-family: 'alertas'
+	speak: none
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	line-height: 1
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+@mixin fontTitle($weight: 400)
+	font-family: 'Oswald', sans-serif
+	font-weight: $weight
+
+@mixin font($weight: 400)
+	font-family: 'Lato', sans-serif
+	font-weight: $weight
+
+
+// ------------------------------------------------------------------
+// Defaults do Compass
+// ------------------------------------------------------------------
+$default-transition-property : all
+$default-transition-duration : 0.2s
+$default-transition-function : false
+$default-transition-delay    : false
+
+$default-text-shadow-color: rgba(#000, 0.3)
+$default-text-shadow-h-offset: 1px
+$default-text-shadow-v-offset: 1px
+$default-text-shadow-blur: 1px
+
+$default-box-shadow-color: rgba(#000, 0.3)
+$default-box-shadow-h-offset: 0
+$default-box-shadow-v-offset: 2px
+$default-box-shadow-blur: 4px
+$default-box-shadow-spread: 0
+$default-box-shadow-inset: false
+
+
+
+
+
+// ------------------------------------------------------------------
+// Styles Base
+// ------------------------------------------------------------------
+
+body
+	font-size: 12px
+	color: $corTexto
+	+font
+	font-size: 11px
+
+	p
+		line-height: 200%
+		font-size: 16px
+		margin-bottom: 20px
+		+font
+
+a
+	text-decoration: none
+	color: $corPrincipal
+	+transition
+
+	*
+		+transition
+
+	&:hover
+		color: rgba($corPrincipal,1)
+		text-decoration: none
+
+
+h1, h2, h3, h4, h5, h6
+	+font(700)
+	margin-bottom: 20px
+	line-height: 110%
+
+
+
+$titleSize: 50px
+h1
+	font-size: $titleSize 
+
+h2
+	font-size: $titleSize - 15
+
+h3
+	font-size: $titleSize - 20
+
+h4
+	font-size: $titleSize - 24
+
+h5
+	font-size: $titleSize - 28
+
+h6
+	font-size: $titleSize - 32
+

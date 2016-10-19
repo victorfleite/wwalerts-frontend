@@ -1,0 +1,27 @@
+<div id="legenda" class="dialog dialog--open modalText">		 
+	<div class="dialog__overlay"></div>
+	<div class="dialog__content">
+		<header>
+			<h1>{{ 'RISK.LEGENDA' | translate }}</h1>
+		</header>
+		<section class="contentWrapper">
+			<section class="content">
+				<div class="container severidade">
+					<h2>{{ 'RISK.LABEL_LEGENDA' | translate }}</h2>
+
+					<ul>
+						<li class="nothing">{{ 'RISK.NOTHING' | translate }}</li>
+						<li class="potential">{{ 'RISK.POTENTIAL' | translate }}</li>
+						<li class="danger">{{ 'RISK.DANGER' | translate }}</li>
+						<li class="dangerous">{{ 'RISK.DANGEROUS' | translate }}</li>
+					</ul>
+				</div>
+
+				<div class="container cobrades">
+					<span ng-repeat="item in transfer.codares" class="{{ transfer.codarService.codarI18nFilter(item, 'class') }}"><i></i><b>{{ transfer.codarService.codarI18nFilter(item, 'codar') }}</b></span>					
+				</div>
+			</section>
+		</section>
+		<a href="#" class="action close" ng-click="close()" data-dialog-close>u</a>
+	</div>
+</div>

@@ -1,0 +1,89 @@
+// ------------------------------------------------------------------
+// Form styles
+// ------------------------------------------------------------------
+
+
+input, button, select, textarea
+	cursor: pointer !important
+	&:focus
+		outline: none
+
+input
+	+border-radius(5px)
+
+
+input, input[type="text"], select, textarea, .ms-parent > button
+	+border-radius(5px)
+	+box-sizing(border-box)
+	display: block
+	float: none
+	position: relative
+	font-size: 20px
+	padding: 10px 20px
+	border: 2px solid $cinzaClaro
+	text-indent: 0
+	color: $cinzaClaro
+	width: 100%
+	min-height: 51px
+	line-height: 31px
+	+font
+
+	&:focus
+		border-color: $preto
+		color: $preto
+
+input[type="text"]
+	background: $branco
+
+textarea
+	min-height: 120px
+
+@mixin select
+	background: $branco url(img/form-select.png) right center no-repeat
+	padding-right: 36px
+	+appearance(none)
+
+@mixin checkbox
+	background: $brancoCinza
+	width: 25px
+	height: 25px
+	+appearance(none)
+	+border-radius(5px)
+	+transition
+
+	&:checked
+		background: $corPrincipal url(img/form-checkbox-w.png) center center no-repeat
+		+animate(pulseCheck)
+
+input[type="checkbox"]
+	+checkbox
+
+@mixin radio
+	background: $brancoCinza
+	width: 25px
+	height: 25px
+	+appearance(none)
+	+border-radius(50%)
+	+transition
+
+	&:checked
+		background: $corPrincipal url(img/form-radio-w.png) center center no-repeat
+		+animate(pulseCheck)
+
+input[type="submit"], input[type="button"], button
+	+button3d
+	margin-top: 20px
+
+html.no-ie
+	select
+		+select
+
+	input[type="checkbox"]
+		+checkbox
+
+	input[type="radio"]
+		+radio
+
+	//input[type="file"]
+	//	+uploadBt
+	//	+button3d

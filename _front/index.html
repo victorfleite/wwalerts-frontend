@@ -1,0 +1,543 @@
+`<!DOCTYPE html>
+<!--[if lt IE 8]>
+	<html class="ie ie-older" lang="PT-BR">
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<!--[if IE 8]>
+	<html class="ie ie8" lang="PT-BR">
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+<!--[if IE 9]>
+	<html class="ie ie9" lang="PT-BR">
+<![endif]-->
+
+<!--[if gt IE 9]><!-->
+<html lang="PT-BR">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>ALERT-AS</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="js/modernizr.custom.js"></script>
+	<!--[if IE]>
+		<link rel="stylesheet" href="ie.css">
+	<![endif]-->
+</head>
+<body>
+
+	<!--[if lt IE 9]>
+	<div id="ieWrapper">
+		<div id="ieModal">
+			<h1>
+				Infelizmente seu navegador não suporta esse aplicativo.
+				<b>Escolha um dos navegadores abaixo:</b>
+			</h1>
+			<a href="http://www.google.com/chrome" target="blank">
+				<img src="img/ieModal/chrome.png" alt="">
+				Google Chrome
+			</a>
+			<a href="http://www.apple.com/safari/" target="blank">
+				<img src="img/ieModal/safari.png" alt="">
+				Safari
+			</a>
+			<a href="http://www.firefox.com/" target="blank">
+				<img src="img/ieModal/firefox.png" alt="">
+				Firefox
+			</a>
+		</div>
+	</div>
+	<![endif]-->
+
+	<div id="loader"></div>
+
+	<a href="#" title="" id="logo">
+		<img src="img/logo.png" alt="">
+	</a>
+
+	<a href="#" title="" id="logo-omm"></a>
+
+	<header id="header">
+		<div id="previsao">
+			<a href="#" title="" id="previsaoExpand"></a>
+			
+			<span>
+				<i class="icon-previsao-chuvas-isoladas"></i>
+				<p>Brasília - Máx. 33º e Min. 18º</p>
+				<p>Chuvas isoladas</p>
+			</span>
+			
+			<span>
+				<i class="icon-previsao-chuvas-isoladas"></i>
+				<p>Brasília - Máx. 33º e Min. 18º</p>
+				<p>Chuvas isoladas</p>
+			</span>
+			
+			<span>
+				<i class="icon-previsao-chuvas-isoladas"></i>
+				<p>Brasília - Máx. 33º e Min. 18º</p>
+				<p>Chuvas isoladas</p>
+			</span>
+
+			<span>
+				<i class="icon-previsao-chuvas-isoladas"></i>
+				<p>Brasília - Máx. 33º e Min. 18º</p>
+				<p>Chuvas isoladas</p>
+			</span>
+
+		</div>
+
+		<div class="mobileWrapper">
+			<nav class="menu">
+				<a href="#" title="">Sobre o alert-as</a>
+				<a href="#" title="">Previsão</a>
+				<a href="#" title="">Contato</a>
+				<a href="#" title="">Ajuda</a>
+			</nav>
+
+			<nav class="language">
+				<a href="" title="" class="selected"><img src="img/flag-portuguese.png" alt=""></a>
+				<a href="" title=""><img src="img/flag-spanish.png" alt=""></a>
+				<a href="" title=""><img src="img/flag-english.png" alt=""></a>
+			</nav>
+		</div>
+		
+		<a onclick="$(document).toggleFullScreen()" id="btFullscreen" class="fullScreenBt" title="Tela Cheia">w</a>
+	</header>
+
+	<section id="alertas">
+		<header>
+			<a href="#alerta-hoje" title="">Hoje</a>
+			<a href="#alerta-amanha" title="">Amanha</a>
+			<a href="#alerta-futuro" title="">Próximos dias</a>
+		</header>
+
+		<section id="alerta-hoje">
+			<div class="wrapper">
+
+				<span>
+					<p>AC</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>AL</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>AP</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>AM</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>BA</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>CE</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>DF</p>
+					<a href="#" title="" data-dialog="alert-detail" class="trigger alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+					<a href="#" class="alert-baixa-umidade danger">
+						<i></i>
+						<p>baixa umidade</p>
+					</a>
+					<a href="#" class="alert-chuvas-intensas dangerous">
+						<i></i>
+						<p>chuvas intensas</p>
+					</a>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+
+				<span>
+					<p>ES</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>GO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>MA</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>MT</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>MS</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>MG</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>PA</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>PB</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>PR</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>PE</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>PI</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RJ</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RS</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RS</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RR</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SC</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SP</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SE</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>TO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+			</div>
+		</section>
+
+		<section id="alerta-amanha">
+			<div class="wrapper">
+
+				<span>
+					<p>AC</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>AL</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RJ</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RS</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RS</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>RR</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SC</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SP</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SE</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>TO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+			</div>
+		</section>
+
+		<section id="alerta-futuro">
+			<div class="wrapper">
+				<span>
+					<p>SC</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SP</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>SE</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+
+				<span>
+					<p>TO</p>
+					<a href="#" class="alert-acumulado-de-chuva potential">
+						<i></i>
+						<p>declinio de temperatura</p>
+					</a>
+				</span>
+			</div>
+		</section>
+
+		<footer>
+			<span class="nothing"><i></i><p>Nada reportado</p></span>
+			<span class="potential"><i></i><p>Perigo Potencial</p></span>
+			<span class="danger"><i></i><p>Perigo</p></span>
+			<span class="dangerous"><i></i><p>Muito Perigoso</p></span>
+		</footer>
+
+	</section>
+
+
+
+	<section id="map"></section>
+
+
+<!--
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+-->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/pace.min.js"></script>
+	<script src="js/jquery.idTabs.min.js"></script>
+	<!-- <script src="js/jquery.tooltipster.min.js"></script> -->
+	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+	<script>
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+	</script>
+	-->
+
+	<script src="js/jquery.fullscreen-min.js"></script>
+
+</body>
+</html>
