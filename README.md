@@ -3,11 +3,8 @@ Plataform to create and manage alerts based on protocol [CAP 1.2](http://docs.oa
 
 # 
 Views:
-
 [Image 1](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_2.png) |
-
 [Image 2](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_3.png) |
-
 [Image 3](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_4.png) |
 
 
