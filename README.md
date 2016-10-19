@@ -3,6 +3,7 @@ Plataform to create and manage alerts based on protocol [CAP 1.2](http://docs.oa
 
 # 
 Views:
+
 [Image 1](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_2.png) |
 
 [Image 2](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_3.png) |
@@ -13,3 +14,12 @@ Views:
 
 ### Installation
 building the documentation...
+
+### Initial Authors
+Victor Leite - <victor.leite@gmail.com> | 
+Carlos Becker <becker.carlos.andres@gmail.com> | 
+Gustavo Marques <gutoo@gmail.com>
+[Other contributors](https://github.com/victorfleite/alertmanager/graphs/contributors)
+
+### License
+alertmanager is available under the MIT license. See the LICENSE file for more info.
