@@ -1,5 +1,5 @@
 # alertmanager
-Plataform to create and manage alerts based on protocol [Common Alerting Protocol Version 1.2 - CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html)
+Plataform to create and manage alerts based on [Common Alerting Protocol Version 1.2 - CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html)
 
 # 
 Views:
