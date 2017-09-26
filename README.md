@@ -12,9 +12,9 @@ Views:
 ### Installation
 It is a frontend prototype
 
-$ sudo mkdir /var/www/wwalert
-$ cd /var/www/wwalert
-$ git clone https://github.com/victorfleite/wwalerts-frontend.git
+  $ sudo mkdir /var/www/wwalert
+  $ cd /var/www/wwalert
+  $ git clone https://github.com/victorfleite/wwalerts-frontend.git
 
 ### Run
 http://localhost/wwalert/front/
