@@ -3,9 +3,9 @@ Plataform to create and manage alerts based on [Common Alerting Protocol Version
 
 # 
 Views:
-[Image 1](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_2.png) |
-[Image 2](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_3.png) |
-[Image 3](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_4.png) |
+![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_2.png)
+![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_3.png)
+![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_4.png)
 
 
 
