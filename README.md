@@ -1,5 +1,5 @@
 # wwalert
-Prototype of frontend plataform of severe alerts based on [Common Alerting Protocol Version 1.2 - CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html)
+Frontend Prototype of severe alerts platform based on [Common Alerting Protocol Version 1.2 - CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html)
 
 # 
 Views:
@@ -10,11 +10,12 @@ Views:
 
 
 ### Installation
-It is a frontend prototype
 
-> $ sudo mkdir /var/www/wwalert
-> $ cd /var/www/wwalert
-> $ git clone https://github.com/victorfleite/wwalerts-frontend.git
+```sh
+$ sudo mkdir /var/www/wwalert
+$ cd /var/www/wwalert
+$ git clone https://github.com/victorfleite/wwalerts-frontend.git
+```
 
 ### Run
 http://localhost/wwalert/front/
