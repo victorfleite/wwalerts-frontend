@@ -12,8 +12,8 @@ Views:
 ### Installation
 
 ```sh
-$ sudo mkdir /var/www/wwalert
-$ cd /var/www/wwalert
+$ sudo mkdir /var/www/html/wwalert
+$ cd /var/www/html/wwalert
 $ git clone https://github.com/victorfleite/wwalerts-frontend.git
 ```
 
