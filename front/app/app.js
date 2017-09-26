@@ -104,7 +104,7 @@ var app = angular.module('alertAsApp', [
           	  }); 
         	  
         	  //$translateProvider.useSanitizeValueStrategy('sanitize');
-        	  $translateProvider.preferredLanguage('es');
+        	  $translateProvider.preferredLanguage('en');
         		
         	  $routeProvider.when('/history/:id', {
                 controller: 'mainController',
