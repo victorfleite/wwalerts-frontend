@@ -32,7 +32,7 @@ app.controller('mainController', ['$rootScope', '$scope', '$log', '$translate', 
 	$scope.emergenciasSelecionadas = [];
 
 	//Map Config Variables
-	$scope.mapCenterConfig = { "center": { "lat": -38.64, "lon": -63.8, "zoom": 5 } };
+	$scope.mapCenterConfig = { "center": { "lat": -14.9, "lon": -54.5, "zoom": 4.30 } };
 	$scope.mapCenterConfigOriginal = {};
 	$scope.mapWmsConfig = {/*
 		'wms': {
@@ -53,7 +53,7 @@ app.controller('mainController', ['$rootScope', '$scope', '$log', '$translate', 
 	$scope.initialize = function () {
 
 		$rootScope.loader = LOADER.LOADING_CLASS;
- 
+
 		$q.all([
 			codarService.getCodares(),
 			paisService.getMapCenterConfig(),
@@ -180,7 +180,7 @@ app.controller('mainController', ['$rootScope', '$scope', '$log', '$translate', 
 			}
 		}, function (modal) {
 			modal.close.then(function (result) {
-
+				$scope.mapCenterConfig = { "center": { "lat": -14.9, "lon": -54.5, "zoom": 4.30 } };
 			});
 		}
 		);
