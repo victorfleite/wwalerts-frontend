@@ -2183,7 +2183,7 @@ angular.module('openlayers-directive').factory('olMapDefaults', ["$q", "olHelper
             controls: {
                 attribution: true,
                 rotate: false,
-                zoom: false
+                zoom: true
             },
             interactions: {
                 mouseWheelZoom: false

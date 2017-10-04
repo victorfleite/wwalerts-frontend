@@ -52,7 +52,7 @@
 		margin: 0 -5px
 		
 		&.inmet
-			background: url(../img/logo-smm.png) center center no-repeat
+			background: url(../img/logo-inmet.png) center center no-repeat
 		
 		&.omm
 			background: url(../img/logo-omm.png) center center no-repeat
@@ -64,7 +64,7 @@
 
 
 		
-	//.inmet
+	.inmet
 
 
 .pace-done
@@ -119,7 +119,7 @@
 	width: 100%
 	height: 100px
 	background: rgba($corPrincipal, 0.9)
-	border-bottom: 7px solid $amarelo
+	border-bottom: 7px solid $laranja
 	+box-sizing(border-box)
 	position: fixed
 	top: 0
@@ -211,20 +211,18 @@
 	.menu
 		a
 			padding: 0 20px
-			opacity: 1
+			opacity: 0.6
 			height: 93px
 			line-height: 93px
 			display: inline-block
-			border-left: 1px solid rgba(0,0,0,0.15)
+			border-left: 1px solid rgba(0,0,0,0.3)
 			margin-left: -3px
 			+fontTitle
 			cursor: pointer
-			color: $branco
 
 			&:hover
-				background: $branco
+				background: rgba(0,0,0,0.3)
 				opacity: 1
-				color: $corPrincipal
 
 	.language
 		border-left: 1px solid rgba(0,0,0,0.3)
@@ -924,7 +922,7 @@
 				+box-sizing(border-box)
 				
 			.share
-				background-color: $corPrincipal
+				background-color: lighten($corPrincipal, 25%)
 				padding: 0 20px
 				right: 0
 				width: 30%
@@ -957,7 +955,7 @@
 						opacity: 1
 
 				&:hover
-					background-color: darken($corPrincipal, 10%)
+					background-color: lighten($corPrincipal, 10%)
 					height: 120px
 					margin-top: -59px
 

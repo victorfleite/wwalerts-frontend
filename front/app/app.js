@@ -10,7 +10,7 @@
  */
 var app = angular.module('alertAsApp', [  
     'ngRoute',                                   
-	'openlayers-directive',
+	'openlayers-directive', 
 	'pascalprecht.translate', 
 	'angularModalService',
 	'FBFullScreen',
@@ -23,8 +23,8 @@ var app = angular.module('alertAsApp', [
          })
         .constant('CONSTANTES', { 
             VIEW_FOLDER: 'app-minify',
-            //URL_SERVIDOR: 'http://{{HOST}}/alert2-as/web' 
-            URL_SERVIDOR: 'http://alertas/web'  
+            URL_SERVIDOR: 'http://{{HOST}}/alert2-as/web' 
+            //URL_SERVIDOR: 'http://alertas/alert2-as/web/'  
          })
         .config(['$logProvider', 'CONSTANTES', '$translateProvider', '$routeProvider', function($logProvider, CONSTANTES, $translateProvider, $routeProvider) {
         		
@@ -38,7 +38,6 @@ var app = angular.module('alertAsApp', [
         	    'HEADERMENU.CONTACT'	: 'Contato',
         	    'HEADERMENU.HELP'		: 'Ajuda',
         	    'HEADERMENU.FULLSCREEN'	: 'Tela Cheia',
-              'HEADERMENU.FORECAST' : 'Previsão do Tempo',
         	    'RISK.LEGENDA'			: 'LEGENDA',
         	    'RISK.LABEL_LEGENDA'	: 'Nível de Severidade',
         	    'RISK.NOTHING'			: 'Nada Reportado',
@@ -63,7 +62,6 @@ var app = angular.module('alertAsApp', [
 	      	    'HEADERMENU.CONTACT'	: 'Contact',
 	      	    'HEADERMENU.HELP'		: 'Help',
 	      	    'HEADERMENU.FULLSCREEN'	: 'Full Screen',
-              'HEADERMENU.FORECAST' : 'Weather Forecast',
 	      	    'RISK.LEGENDA'			: 'CAPTION',
 	      	    'RISK.LABEL_LEGENDA'	: 'Severity Levels',
         	    'RISK.NOTHING'			: 'Nothing Reported',
@@ -83,16 +81,15 @@ var app = angular.module('alertAsApp', [
           	    'TAB.AMANHA'			: 'Mañana',
           	    'TAB.FUTURO'			: 'Próximos días',
           	    'MSG_SEM_EVENTO'		: 'Sin Evento',
-          	    'HEADERMENU.ABOUT'		: 'Acerca del Alert-AS',
+          	    'HEADERMENU.ABOUT'		: 'Acerca de Alert-AS',
           	    'HEADERMENU.TERMS' 		: 'Términos y Condiciones',
           	    'HEADERMENU.CONTACT'	: 'Contacto',
           	    'HEADERMENU.HELP'		: 'Ayuda',
           	    'HEADERMENU.FULLSCREEN'	: 'Pantalla Completa',
-                'HEADERMENU.FORECAST' : 'Previsión del Tiempo',
           	    'RISK.LEGENDA'			: 'LEYENDA',
           	    'RISK.LABEL_LEGENDA'	: 'Gravedad',
-          	    'RISK.NOTHING'			: 'Nada previsto',
-          	    'RISK.POTENTIAL'		: 'Peligro Potencial',
+          	    'RISK.NOTHING'			: 'Nada de lo previsto',
+          	    'RISK.POTENTIAL'		: 'Peligo Potencial',
           	    'RISK.DANGER'			: 'Peligro',
           	    'RISK.DANGEROUS'		: 'Gran Peligro',
           	    'ALERTMODAL_DATAINICIO' : 'Principio',

@@ -1,1 +1,268 @@
-[]
+[
+    {
+        "pt-BR": {
+            "codar": "Acumulado de Chuva",
+            "class": "alert-acumulado-de-chuva"
+        },
+        "en": {
+            "codar": "Acumulado de Chuva",
+            "class": "alert-acumulado-de-chuva"
+        },
+        "es": {
+            "codar": "Acumulado de Chuva",
+            "class": "alert-acumulado-de-chuva"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Baixa Umidade",
+            "class": "alert-baixa-umidade"
+        },
+        "en": {
+            "codar": "Baixa Umidade",
+            "class": "alert-baixa-umidade"
+        },
+        "es": {
+            "codar": "Baixa Umidade",
+            "class": "alert-baixa-umidade"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Chuvas Intensas",
+            "class": "alert-chuvas-intensas"
+        },
+        "en": {
+            "codar": "Much Rain",
+            "class": "alert-chuvas-intensas"
+        },
+        "es": {
+            "codar": "Chuvas Intensas",
+            "class": "alert-chuvas-intensas"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Declínio de Temperatura",
+            "class": "alert-declinio-de-temperatura"
+        },
+        "en": {
+            "codar": "Declínio de Temperatura",
+            "class": "alert-declinio-de-temperatura"
+        },
+        "es": {
+            "codar": "Declínio de Temperatura",
+            "class": "alert-declinio-de-temperatura"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Estiagem",
+            "class": "alert-estiagem"
+        },
+        "en": {
+            "codar": "Estiagem",
+            "class": "alert-estiagem"
+        },
+        "es": {
+            "codar": "Estiagem",
+            "class": "alert-estiagem"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Friagem",
+            "class": "alert-friagem"
+        },
+        "en": {
+            "codar": "Friagem",
+            "class": "alert-friagem"
+        },
+        "es": {
+            "codar": "Friagem",
+            "class": "alert-friagem"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Geada",
+            "class": "alert-geada"
+        },
+        "en": {
+            "codar": "Geada",
+            "class": "alert-geada"
+        },
+        "es": {
+            "codar": "Geada",
+            "class": "alert-geada"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Granizo",
+            "class": "alert-granizo"
+        },
+        "en": {
+            "codar": "Granizo",
+            "class": "alert-granizo"
+        },
+        "es": {
+            "codar": "Granizo",
+            "class": "alert-granizo"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Incêndios",
+            "class": "alert-incendios"
+        },
+        "en": {
+            "codar": "Incêndios",
+            "class": "alert-incendios"
+        },
+        "es": {
+            "codar": "Incêndios",
+            "class": "alert-incendios"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Neve",
+            "class": "alert-neve"
+        },
+        "en": {
+            "codar": "Neve",
+            "class": "alert-neve"
+        },
+        "es": {
+            "codar": "Neve",
+            "class": "alert-neve"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Onda de Calor",
+            "class": "alert-onda-de-calor"
+        },
+        "en": {
+            "codar": "Onda de Calor",
+            "class": "alert-onda-de-calor"
+        },
+        "es": {
+            "codar": "Onda de Calor",
+            "class": "alert-onda-de-calor"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Onda de Frio",
+            "class": "alert-onda-de-frio"
+        },
+        "en": {
+            "codar": "Onda de Frio",
+            "class": "alert-onda-de-frio"
+        },
+        "es": {
+            "codar": "Onda de Frio",
+            "class": "alert-onda-de-frio"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Ressaca",
+            "class": "alert-ressaca"
+        },
+        "en": {
+            "codar": "Ressaca",
+            "class": "alert-ressaca"
+        },
+        "es": {
+            "codar": "Ressaca",
+            "class": "alert-ressaca"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Seca",
+            "class": "alert-seca"
+        },
+        "en": {
+            "codar": "Seca",
+            "class": "alert-seca"
+        },
+        "es": {
+            "codar": "Seca",
+            "class": "alert-seca"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Tempestade",
+            "class": "alert-chuvas-intensas"
+        },
+        "en": {
+            "codar": "mapa.emergencia.codar_18",
+            "class": "alert-chuvas-intensas"
+        },
+        "es": {
+            "codar": "mapa.emergencia.codar_18",
+            "class": "alert-chuvas-intensas"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Tempestade de Raios",
+            "class": "alert-tempestade-de-raio"
+        },
+        "en": {
+            "codar": "Tempestade de Raios",
+            "class": "alert-tempestade-de-raio"
+        },
+        "es": {
+            "codar": "Tempestade de Raios",
+            "class": "alert-tempestade-de-raio"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Tornados",
+            "class": "alert-tornado"
+        },
+        "en": {
+            "codar": "Tornados",
+            "class": "alert-tornado"
+        },
+        "es": {
+            "codar": "Tornados",
+            "class": "alert-tornado"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Vendaval",
+            "class": "alert-vendaval"
+        },
+        "en": {
+            "codar": "Vendaval",
+            "class": "alert-vendaval"
+        },
+        "es": {
+            "codar": "Vendaval",
+            "class": "alert-vendaval"
+        }
+    },
+    {
+        "pt-BR": {
+            "codar": "Ventos Costeiros",
+            "class": "alert-ventos-costeiros"
+        },
+        "en": {
+            "codar": "Cross Wind",
+            "class": "alert-ventos-costeiros"
+        },
+        "es": {
+            "codar": "Ventos Costeiros",
+            "class": "alert-ventos-costeiros"
+        }
+    }
+]
