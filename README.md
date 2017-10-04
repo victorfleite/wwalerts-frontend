@@ -1,16 +1,16 @@
 # wwalert
 Frontend Prototype of severe alerts platform based on [Common Alerting Protocol Version 1.2 - CAP](http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html)
 
+### DEMO
+
+[CLICK HERE TO SEE THE PROTOTYPE](http://centralweb.educatux.com.br/wwalert/front/)
+
 # 
 Views:
 ![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_2.png)
 ![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_3.png)
 ![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_4.png)
 
-
-### DEMO
-
-[CLICK HERE TO SEE THE PROTOTYPE](http://centralweb.educatux.com.br/wwalert/front/)
 
 ### Installation
 
