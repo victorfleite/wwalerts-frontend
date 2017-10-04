@@ -8,6 +8,9 @@ Views:
 ![](https://github.com/victorfleite/alertmanager/blob/master/assets/imgs/alertas_tela_4.png)
 
 
+### DEMO
+
+[CLICK HERE TO SEE THE PROTOTYPE](http://centralweb.educatux.com.br/wwalert/front/)
 
 ### Installation
 
