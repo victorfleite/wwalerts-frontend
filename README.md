@@ -25,8 +25,7 @@ http://localhost/wwalert/front/
 
 
 ### Initial Authors
-Victor Leite - <victor.leite@gmail.com> | 
-Carlos Becker <becker.carlos.andres@gmail.com> | 
+Victor Leite - <victor.leite@gmail.com> |
 Gustavo Marques <gutoo@gmail.com>
 [Other contributors](https://github.com/victorfleite/alertmanager/graphs/contributors)
 
