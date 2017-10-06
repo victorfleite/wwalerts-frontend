@@ -3,7 +3,7 @@ Frontend Prototype of severe alerts platform based on [Common Alerting Protocol 
 
 ### DEMO
 
-[CLICK HERE TO SEE THE PROTOTYPE](http://165.227.184.206/wwalerts-frontend/front/)
+[CLICK HERE TO SEE THE PROTOTYPE](http://165.227.184.206/wwalerts-frontend/front/){:target="_blank"}
 
 # 
 Views:
