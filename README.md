@@ -3,7 +3,7 @@ Frontend Prototype of severe alerts platform based on [Common Alerting Protocol 
 
 ### DEMO
 
-[CLICK HERE TO SEE THE PROTOTYPE](http://centralweb.educatux.com.br/wwalert/front/)
+[CLICK HERE TO SEE THE PROTOTYPE](http://165.227.184.206/wwalerts-frontend/front/)
 
 # 
 Views:
@@ -15,13 +15,11 @@ Views:
 ### Installation
 
 ```sh
-$ sudo mkdir /var/www/html/wwalert
-$ cd /var/www/html/wwalert
 $ git clone https://github.com/victorfleite/wwalerts-frontend.git
 ```
 
 ### Run
-http://localhost/wwalert/front/
+http://localhost/wwalerts-frontend/front/
 
 
 ### Initial Authors
