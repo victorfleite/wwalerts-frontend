@@ -28,4 +28,4 @@ Gustavo Marques <gutoo@gmail.com>
 [Other contributors](https://github.com/victorfleite/alertmanager/graphs/contributors)
 
 ### License
-alertmanager is available under the MIT license. See the LICENSE file for more info.
+wwalerts is available under the MIT license. See the LICENSE file for more info.
